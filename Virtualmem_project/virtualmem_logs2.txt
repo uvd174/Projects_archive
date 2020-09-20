@@ -1,0 +1,31 @@
+Input: 
+7
+3
+1 2 3 2 1 4 3 5 6 4 3 5 3 5 6 7 2 1 5 7 
+
+Replacements made:
+FIFO:   -> 1; LRU:   -> 1; OPT:   -> 1; 
+FIFO:   -> 2; LRU:   -> 2; OPT:   -> 2; 
+FIFO:   -> 3; LRU:   -> 3; OPT:   -> 3; 
+FIFO:   !! 2; LRU:   !! 2; OPT:   !! 2; 
+FIFO:   !! 1; LRU:   !! 1; OPT:   !! 1; 
+FIFO: 1 -> 4; LRU: 3 -> 4; OPT: 1 -> 4; 
+FIFO:   !! 3; LRU: 2 -> 3; OPT:   !! 3; 
+FIFO: 2 -> 5; LRU: 1 -> 5; OPT: 2 -> 5; 
+FIFO: 3 -> 6; LRU: 4 -> 6; OPT: 5 -> 6; 
+FIFO:   !! 4; LRU: 3 -> 4; OPT:   !! 4; 
+FIFO: 4 -> 3; LRU: 5 -> 3; OPT:   !! 3; 
+FIFO:   !! 5; LRU: 6 -> 5; OPT: 4 -> 5; 
+FIFO:   !! 3; LRU:   !! 3; OPT:   !! 3; 
+FIFO:   !! 5; LRU:   !! 5; OPT:   !! 5; 
+FIFO:   !! 6; LRU: 4 -> 6; OPT:   !! 6; 
+FIFO: 5 -> 7; LRU: 3 -> 7; OPT: 6 -> 7; 
+FIFO: 6 -> 2; LRU: 5 -> 2; OPT: 3 -> 2; 
+FIFO: 3 -> 1; LRU: 6 -> 1; OPT: 2 -> 1; 
+FIFO: 7 -> 5; LRU: 7 -> 5; OPT:   !! 5; 
+FIFO: 2 -> 7; LRU: 2 -> 7; OPT:   !! 7; 
+
+Output:
+FIFO: 9
+LRU: 13
+OPT: 7
