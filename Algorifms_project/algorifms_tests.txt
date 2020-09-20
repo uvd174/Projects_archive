@@ -1,0 +1,31 @@
+8
+0b ->. 1
+1b ->  b0
+b  ->. 1
+a0 ->  0a
+a1 ->  1a
+0a ->  0b
+1a ->  1b
+   ->  a
+11
+Out: 100
+
+4
+111 ->
+11  ->.
+1   ->.
+    ->. 1
+1111111
+Out: (Yes, it has just printed an empty line)
+
+8
+|b ->  ba|
+ab ->  ba
+b  ->
+*| ->  b*
+*  ->  c
+|c ->  c
+ac ->  c|
+c  ->.
+||*|
+Out: ||

@@ -1,0 +1,14 @@
+Input:
+11
+
+Replacements made:
+11 -> a11
+a11 -> 1a1
+1a1 -> 11a
+11a -> 11b
+11b -> 1b0
+1b0 -> b00
+b00 -> 100
+
+Output:
+100

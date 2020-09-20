@@ -1,0 +1,17 @@
+Input:
+||*|
+
+Replacements made:
+||*| -> ||b*
+||b* -> |ba|*
+|ba|* -> ba|a|*
+ba|a|* -> a|a|*
+a|a|* -> a|a|c
+a|a|c -> a|ac
+a|ac -> a|c|
+a|c| -> ac|
+ac| -> c||
+c|| -> ||
+
+Output:
+||
